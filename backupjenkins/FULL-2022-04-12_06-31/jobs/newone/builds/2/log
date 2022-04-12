@@ -1,0 +1,17 @@
+Started by user [8mha:////4EYO41Tfx5alwNqWdZYclFfn38dY8y5But/l4bH5rnJfAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/dLi1CL9yvz0xOLEktTU4gwAxEfwasYAAAA=[0msateesh
+Running as SYSTEM
+Building in workspace C:\Users\sree\.jenkins\workspace\newone
+The recommended git tool is: NONE
+using credential d1d49d94-1284-4c07-84a1-3e3fabc91d65
+ > git.exe rev-parse --resolve-git-dir C:\Users\sree\.jenkins\workspace\newone\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/yogasateesh-11/terraform-1.git # timeout=10
+Fetching upstream changes from https://github.com/yogasateesh-11/terraform-1.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.35.1.windows.2'
+using GIT_ASKPASS to set credentials demo
+ > git.exe fetch --tags --force --progress -- https://github.com/yogasateesh-11/terraform-1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "origin/master^{commit}" # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE

@@ -1,0 +1,24 @@
+Started by user [8mha:////4EYO41Tfx5alwNqWdZYclFfn38dY8y5But/l4bH5rnJfAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/dLi1CL9yvz0xOLEktTU4gwAxEfwasYAAAA=[0msateesh
+Running as SYSTEM
+Building in workspace C:\Users\sree\.jenkins\workspace\dev
+The recommended git tool is: NONE
+using credential d1d49d94-1284-4c07-84a1-3e3fabc91d65
+Cloning the remote Git repository
+Cloning repository https://github.com/yogasateesh-11/dev-new.git
+ > git.exe init C:\Users\sree\.jenkins\workspace\dev # timeout=10
+Fetching upstream changes from https://github.com/yogasateesh-11/dev-new.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.35.1.windows.2'
+using GIT_ASKPASS to set credentials demo
+ > git.exe fetch --tags --force --progress -- https://github.com/yogasateesh-11/dev-new.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/yogasateesh-11/dev-new.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 3a6f13eb7dc3eeb2e8a56097cda2e389426fded4 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 3a6f13eb7dc3eeb2e8a56097cda2e389426fded4 # timeout=10
+Commit message: "test"
+First time build. Skipping changelog.
+Triggering a new build of [8mha:////4CvirqrPGT5wuVe/qkB8zJbbeA4mV/IbZ3CSJoBQkf0mAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2Covys1OQSQ30AWn4mLcMAAAA=[0mproject1 #2
+Finished: SUCCESS
